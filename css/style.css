@@ -1,0 +1,53 @@
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(6, 150px);
+	grid-template-rows: repeat(6, 50px);
+	grid-gap: 5px;
+	width: 950px;
+	margin-top: 100px;
+	margin-left: 220px;
+}
+.grid-item {
+	background-color: #ff9500;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+#message {
+	display: flex;
+	justify-content: center;
+}
+
+.target {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: green;
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+
+}
+.miss {
+	background-color: grey;
+}
+
+body h2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+#button-reload {
+	width: 80%
+}
+
+.grid-wrapper :hover {
+	color: red;
+}
+
+body h4 {
+	display: none;
+}
